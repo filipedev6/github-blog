@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body{
-  font-family: 'Nunito' sans-serif;
+  font-family: 'Nunito', sans-serif;
+  @apply bg-base-background
 }

@@ -4,8 +4,8 @@ import Logo from '../assets/logo.svg'
 
 export function Header() {
   return (
-    <header className="h-[296px] w-full bg-base-profile flex items-center justify-center">
-      <img src={Logo} alt="" />
+    <header className="h-[296px] w-full bg-base-profile flex items-center justify-center bg-cover-pattern bg-center bg-cover bg-no-repeat">
+      <img src={Logo} alt="" className="mb-20" />
     </header>
   )
 }

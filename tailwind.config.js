@@ -3,6 +3,9 @@ export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'cover-pattern': "url('/cover.png')",
+      },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
       },
