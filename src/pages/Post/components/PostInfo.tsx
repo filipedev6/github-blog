@@ -16,7 +16,7 @@ export function PostInfo() {
       <header className="flex justify-between">
         <Link
           to="/"
-          className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold"
+          className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold border-b border-transparent hover:border-[#3294f8] transition-all"
         >
           <CaretLeft size={12} />
           Voltar
@@ -24,7 +24,7 @@ export function PostInfo() {
 
         <a
           href="https://github.com"
-          className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold"
+          className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold border-b border-transparent hover:border-[#3294f8] transition-all"
         >
           Ver no GitHub <ArrowSquareUpRight size={12} />
         </a>
@@ -38,19 +38,19 @@ export function PostInfo() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <GithubLogo weight="fill" color="#3A536B" />
-            <span className="text-base-subtitle text-base font-normal">
+            <span className="text-base-span text-base font-normal">
               Rocketseat
             </span>
           </div>
           <div className="flex items-center gap-2">
             <Calendar weight="fill" color="#3A536B" />
-            <span className="text-base-subtitle text-base font-normal">
+            <span className="text-base-span text-base font-normal">
               Há 1 dia
             </span>
           </div>
           <div className="flex items-center gap-2">
             <ChatCircle weight="fill" color="#3A536B" />
-            <span className="text-base-subtitle text-base font-normal">
+            <span className="text-base-span text-base font-normal">
               5 comentários
             </span>
           </div>

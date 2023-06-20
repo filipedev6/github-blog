@@ -19,9 +19,12 @@ export function Profile() {
             Cameron Williamson
           </h1>
 
-          <button className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold">
+          <a
+            href="https://github.com"
+            className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold  border-b border-transparent hover:border-[#3294f8] transition-all"
+          >
             GitHub <ArrowSquareUpRight size={14} />
-          </button>
+          </a>
         </div>
 
         <div className="flex flex-col gap-6">
