@@ -1,10 +1,8 @@
 export function SearchForm() {
   return (
-    <div className="flex flex-col gap-3 mt-16 mb-12">
+    <div className="flex flex-col gap-3">
       <header className="flex items-center justify-between">
-        <span className="text-lg font-bold text-base-subtitle">
-          Publicações
-        </span>
+        <h3 className="text-lg font-bold text-base-subtitle">Publicações</h3>
 
         <span className="text-sm font-normal text-base-span">
           6 publicações
