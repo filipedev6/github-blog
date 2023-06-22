@@ -43,7 +43,7 @@ export function Profile() {
         className="rounded-lg w-36 h-36 select-none max-md:self-start max-sm:self-center"
       />
       <div className="flex flex-col gap-2 flex-1 w-full">
-        <div className="flex justify-between">
+        <div className="flex justify-between max-sm:flex-col">
           <h1 className="text-base-title text-2xl font-bold">
             {userGithubProfile.name}
           </h1>
