@@ -39,6 +39,7 @@ export function SearchForm({
         <input
           {...register('search')}
           type="text"
+          required
           placeholder="Buscar conteúdo"
           className="w-full h-[50px] px-4 bg-base-input border border-base-border rounded-md outline-none text-base-text placeholder:text-base-label focus:border-[#3294f8] transition-all"
         />

@@ -34,8 +34,10 @@ export function PostInfo({ postData, isLoading }: PostInfoProps) {
             </Link>
 
             <a
-              href="https://github.com"
+              href={postData.html_url}
+              target="_blank"
               className="flex items-center gap-2 text-others-blue uppercase text-xs font-bold border-b border-transparent hover:border-[#3294f8] transition-all"
+              rel="noreferrer"
             >
               Ver no GitHub <ArrowSquareUpRight size={12} />
             </a>

@@ -1,2 +1,0 @@
-- https://api.github.com/users/filipedev6 (API PARA USER)
-- https://api.github.com/search/issues?q=repo:filipedev6/github-blog (ROTA DAS ISSUES DO BLOG)
