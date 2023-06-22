@@ -18,9 +18,9 @@ export interface BlogIssuesType {
 export function Blog() {
   const [blogIssues, setBlogIssues] = useState<BlogIssuesType[]>([])
 
-  async function fetchIssuesGithub() {
+  async function fetchIssuesGithub(query: string = '') {
     const response = await api.get(
-      '/search/issues?q=repo:filipedev6/github-blog',
+      `/search/issues?q=${query}%20repo:filipedev6/github-blog`,
     )
 
     setBlogIssues(response.data.items)
@@ -34,7 +34,10 @@ export function Blog() {
     <div className="max-w-4xl mx-auto px-5">
       <div className="flex flex-col gap-16 mb-12">
         <Profile />
-        <SearchForm />
+        <SearchForm
+          postsLength={blogIssues.length}
+          fetchIssuesGithub={fetchIssuesGithub}
+        />
       </div>
       <div className="grid gap-8 grid-cols-2 max-md:grid-cols-1 pb-12">
         {blogIssues.map((postBlog) => {
