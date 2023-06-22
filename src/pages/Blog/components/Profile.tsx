@@ -12,7 +12,7 @@ export function Profile() {
       style={{ boxShadow: '0px 2px 28px rgba(0, 0, 0, 0.2)' }}
       className="bg-base-profile flex items-center rounded-[10px] gap-8 h-[212px] px-10 py-8 -mt-20"
     >
-      <img src={Avatar} alt="" className="rounded-lg" />
+      <img src={Avatar} alt="" className="rounded-lg w-36 h-36" />
       <div className="flex flex-col gap-2">
         <div className="flex justify-between">
           <h1 className="text-base-title text-2xl font-bold">

@@ -9,7 +9,7 @@ export function Blog() {
         <Profile />
         <SearchForm />
       </div>
-      <div className="grid gap-8 grid-cols-2 max-md:grid-cols-1">
+      <div className="grid gap-8 grid-cols-2 max-md:grid-cols-1 pb-12">
         <Post />
         <Post />
         <Post />
